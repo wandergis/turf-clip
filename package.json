@@ -1,0 +1,30 @@
+{
+  "name": "turf-clip",
+  "version": "0.0.1",
+  "description": "Clip one featurecollection by another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandergis/turf-clip.git"
+  },
+  "keywords": [
+    "turf",
+    "clip",
+    "geojson"
+  ],
+  "author": "wandergis(https://wandergis.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wandergis/turf-clip/issues"
+  },
+  "homepage": "https://github.com/wandergis/turf-clip#readme",
+  "dependencies": {
+    "turf-explode": "^3.0.12",
+    "turf-flatten": "^1.0.0",
+    "turf-inside": "^3.0.12",
+    "turf-intersect": "^3.0.12"
+  }
+}
